@@ -61,7 +61,6 @@ class SandBoxMode implements \JsonSerializable
      *
      * @return null|array
      */
-    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return array_filter(

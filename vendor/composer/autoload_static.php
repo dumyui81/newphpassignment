@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4
+class ComposerStaticInit03a890a83cb481a9849199f1fb3f6887
 {
     public static $files = array (
         '79f66bc0a1900f77abe4a9a299057a0a' => __DIR__ . '/..' . '/starkbank/ecdsa/src/ellipticcurve.php',
@@ -51,7 +51,6 @@ class ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4
 
     public static $classMap = array (
         'BaseSendGridClientInterface' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/BaseSendGridClientInterface.php',
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'SendGrid' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/SendGrid.php',
         'TwilioEmail' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/TwilioEmail.php',
     );
@@ -59,9 +58,9 @@ class ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2c8f0891b68d0108b18d2f13b51621a4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit03a890a83cb481a9849199f1fb3f6887::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit03a890a83cb481a9849199f1fb3f6887::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit03a890a83cb481a9849199f1fb3f6887::$classMap;
 
         }, null, ClassLoader::class);
     }

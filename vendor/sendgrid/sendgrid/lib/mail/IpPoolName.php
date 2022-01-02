@@ -68,7 +68,6 @@ class IpPoolName implements \JsonSerializable
      *
      * @return string
      */
-    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->getIpPoolName();

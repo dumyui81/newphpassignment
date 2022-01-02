@@ -59,7 +59,6 @@ class GroupId implements \JsonSerializable
      *
      * @return int
      */
-    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->getGroupId();
