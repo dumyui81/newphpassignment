@@ -1,5 +1,4 @@
 <?php
-require 'config.php';
 require 'vendor/autoload.php'; // If you're using Composer (recommended)
 =======
 //require 'vendor/autoload.php'; // If you're using Composer (recommended)
