@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php'; // If you're using Composer (recommended)
+//require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
  require("sendgrid-php/sendgrid-php.php");
 // download sendgrid-php.zip from the latest release here,
@@ -17,7 +17,7 @@ $email->addContent(
 $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
 try {
     $response = $sendgrid->send($email);
-   // print $response->statusCode() . "\n";
+    print $response->statusCode() . "\n";
     //print_r($response->headers());
     //print $response->body() . "\n";
 } catch (Exception $e) {
