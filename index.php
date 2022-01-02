@@ -17,9 +17,9 @@ $email->addContent(
 $sendgrid = new \SendGrid('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');
 try {
     $response = $sendgrid->send($email);
-    print $response->statusCode() . "\n";
-    print_r($response->headers());
-    print $response->body() . "\n";
+   // print $response->statusCode() . "\n";
+    //print_r($response->headers());
+    //print $response->body() . "\n";
 } catch (Exception $e) {
     echo 'Caught exception: '. $e->getMessage() ."\n";
 }
