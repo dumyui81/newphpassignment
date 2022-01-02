@@ -1,13 +1,6 @@
 <?php
 require 'vendor/autoload.php'; // If you're using Composer (recommended)
-=======
-//require 'vendor/autoload.php'; // If you're using Composer (recommended)
->>>>>>> d50b17e7df022681d71c0f64e751408df88bb3ec
-// Comment out the above line if not using Composer
-// require("sendgrid-php/sendgrid-php.php");
-// download sendgrid-php.zip from the latest release here,
-// which is included in the download:
-// https://github.com/sendgrid/sendgrid-php/releases
+
 
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("aakashbhatia031@gmail.com", "Example User");
