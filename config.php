@@ -7,10 +7,11 @@
 	define( 'FROM_EMAIL', 'aakashbhatia031@gmail.com' );
 
 	// from name
-	define( 'FROM_NAME', 'YOUR-FROM-NAME' );
+	define( 'FROM_NAME', 'Aakash' );
 
 	// to email address
-	define( 'TO_EMAIL', 'aakashbhatia031@gmail.com' );
+	define( 'TO_EMAIL', 'dumyui81@gmail.com' );
 
 	// to name of user you are sending the email to
-	define( 'TO_NAME', 'YOUR-TO-NAME' );
+	define( 'TO_NAME', 'dumy ui' );
+?>
